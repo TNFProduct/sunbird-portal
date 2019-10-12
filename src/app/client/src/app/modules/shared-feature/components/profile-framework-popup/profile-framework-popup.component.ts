@@ -20,7 +20,7 @@ export class ProfileFrameworkPopupComponent implements OnInit, OnDestroy {
   @Input() isClosable = false;
   @Output() submit = new EventEmitter<any>();
   @Output() close = new EventEmitter<any>();
-  public allowedFields = ['board', 'medium', 'subject'];
+  public allowedFields = ['board', 'medium', 'gradeLevel', 'subject'];
   private _formFieldProperties: any;
   public formFieldOptions = [];
   private custOrgFrameworks: any;
