@@ -154,6 +154,7 @@ export class ProfileFrameworkPopupComponent implements OnInit, OnDestroy {
   private getUpdatedFilters(field, editMode = false) {
     const targetIndex = field.index + 1; // only update next field if not editMode
     const formFields = _.reduce(this.formFieldProperties, (accumulator, current) => {
+      this.enableSubmitButton();
       if (current.index === targetIndex || editMode) {
         const parentField: any = _.find(this.formFieldProperties, { index: current.index - 1 }) || {};
         const parentAssociations = _.reduce(parentField.range, (collector, term) => {
@@ -223,8 +224,7 @@ export class ProfileFrameworkPopupComponent implements OnInit, OnDestroy {
     }
   }
   private enableSubmitButton() {
-    if (_.get(this.selectedOption, 'board.length') && _.get(this.selectedOption, 'medium.length')
-      && _.get(this.selectedOption, 'gradeLevel.length')) {
+    if (_.get(this.selectedOption, 'medium.length')&& _.get(this.selectedOption, 'gradeLevel.length')) {
       this.showButton = true;
     } else {
       this.showButton = false;
