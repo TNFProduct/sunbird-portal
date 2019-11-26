@@ -17,17 +17,17 @@
   &.text {
     .item {
       padding: 0.35714286em 0.86em;
-      color: $menuitem-color;
+      color: $primary-color;
 
       &:hover,
       &:focus {
-        color: $primary-color;
+        color: $secondary-color;
         outline: none;
       }
 
       &.active {
         font-weight: bold;
-        color: $primary-color;
+        color: $secondary-color;
 
         &:hover,
         &:focus {
@@ -38,7 +38,7 @@
   }
   &.vertical {
     .active.item {
-      color: $primary-color;
+      color: $secondary-color;
       font-weight: bold;
       background: none;
     }
