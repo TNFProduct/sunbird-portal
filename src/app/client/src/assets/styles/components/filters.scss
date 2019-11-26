@@ -1,8 +1,9 @@
 .data-driven-filter,
 .prominent-filter {
   .prominent-filter-heading {
-    font-weight: bold;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 1.8em;
+    color: $primary-color;
   }
 
   .filter-title {
