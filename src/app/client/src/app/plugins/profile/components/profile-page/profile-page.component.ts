@@ -66,11 +66,11 @@ export class ProfilePageComponent implements OnInit, OnDestroy {
   orgDetails = [];
   customStyle = {
     backgroundColor: '#ffffff',
-    border: '1px solid #fff',
+    border: '1px solid #000000',
     boxShadow: '0 0 6px 0 rgba(0,0,0,0.38)',
     borderRadius: '50%',
-    color: '#9017FF',
-    fontWeight: 'bold',
+    color: '#000000',
+    fontWeight: '600',
     fontFamily: 'inherit'
   };
   showContactPopup = false;

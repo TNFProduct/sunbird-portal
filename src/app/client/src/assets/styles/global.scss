@@ -12,7 +12,8 @@ body {
 body {
   background:$bg-body;
   position: relative;
-  font-family: $font-stack-en;
+  // font-family: $font-stack-en;
+  font-family: "Montserrat", sans-serif !important;
   letter-spacing: 0.2px;
   height: auto;
   background: $white-color;
@@ -20,7 +21,8 @@ body {
 }
 
 *[lang="en"] body {
-  font-family: $font-stack-en;
+  // font-family: $font-stack-en;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 *[lang="hi"] body {

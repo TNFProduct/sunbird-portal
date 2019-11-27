@@ -71,25 +71,27 @@ export class MainHeaderComponent implements OnInit, OnDestroy {
   public resourceService: ResourceService;
   avtarMobileStyle = {
     backgroundColor: 'transparent',
-    color: '#AAAAAA',
+    color: '#000000',
     fontFamily: 'inherit',
     fontSize: '17px',
     lineHeight: '38px',
-    border: '1px solid #e8e8e8',
+    border: '1px solid #000000',
     borderRadius: '50%',
     height: '38px',
-    width: '38px'
+    width: '38px',
+    fontWeight: '600'
   };
   avtarDesktopStyle = {
     backgroundColor: 'transparent',
-    color: '#AAAAAA',
+    color: '#000000',
     fontFamily: 'inherit',
     fontSize: '17px',
     lineHeight: '38px',
-    border: '1px solid #e8e8e8',
+    border: '1px solid #000000',
     borderRadius: '50%',
     height: '38px',
-    width: '38px'
+    width: '38px',
+    fontWeight: '600'
   };
   /**
    * reference of permissionService service.

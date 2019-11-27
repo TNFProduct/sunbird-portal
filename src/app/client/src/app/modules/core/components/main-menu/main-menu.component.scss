@@ -18,6 +18,7 @@
     .item {
       padding: 0.35714286em 0.86em;
       color: $primary-color;
+      font-size: 1.2em;
 
       &:hover,
       &:focus {
@@ -26,7 +27,7 @@
       }
 
       &.active {
-        font-weight: bold;
+        font-weight: 500;
         color: $secondary-color;
 
         &:hover,
