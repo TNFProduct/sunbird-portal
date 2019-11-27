@@ -103,8 +103,9 @@
 }
 /*home page fonts*/
 .ui.header.HomeAccordianHeading {
-  font-weight: bold;
-  font-size: 1.375em;
+  font-weight: 500;
+  font-size: 1.6em;
+  color: $primary-color;
 }
 /*section heading fonts*/
 .sectionHeading {
@@ -270,8 +271,9 @@
   text-shadow: none !important;
 }
 h4.ui.header.sectionHeading {
-  font-weight: bold;
+  font-weight: 500 !important;
   font-size: 1.375em;
+  color: #8c1515 !important;
 }
 .ui.menu {
   font-weight:500;

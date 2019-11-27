@@ -1,0 +1,16 @@
+// prominent-filter css
+.ui.segment.prominent-filter {
+    border:0 !important;
+    box-shadow: none !important;
+
+    .customborder {
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+
+        label {
+            font-weight: 500 !important;
+            font-size: 1.1em !important;
+        }
+    }
+}
