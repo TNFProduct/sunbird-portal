@@ -1,0 +1,17 @@
+/*
+ * Montserrat http://www.google.com/fonts/earlyaccess
+ */
+ @font-face {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src:url(./Montserrat-Bold.ttf) format('truetype'),
+        url(./Montserrat-BoldItalic.ttf) format('truetype'),
+        url(./Montserrat-Light.ttf) format('truetype'),
+        url(./Montserrat-LightItalic.ttf) format('truetype'),
+        url(./Montserrat-Medium.ttf) format('truetype'),
+        url(./Montserrat-MediumItalic.ttf) format('truetype'),
+        url(./Montserrat-Regular.ttf) format('truetype'),
+        url(./Montserrat-SemiBold.ttf) format('truetype'),
+        url(./Montserrat-SemiBoldItalic.ttf) format('truetype')
+}
