@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Teaching is better with a friend! Teach with Sunbird, the official MAA app for Sunbird’s school teachers.">
-    <meta name="author" content="@HRDMinistry">
+    <meta name="description" content="Teaching is better with a friend! Teach with CSDE, the official MAA app for CSDE school teachers.">
+    <!-- <meta name="author" content="@HRDMinistry"> -->
     <!-- changes -->
     <!-- Favicons -->
     <!-- <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png"> -->
@@ -18,21 +18,21 @@
 	<title>Career Guidance | CSDE</title>
 	
 	<!-- Og Tags -->
-	<meta property="og:title" content="The Nudge Foundation" />
-	<meta property="og:site_name" content="Sunbird"/>
+	<meta property="og:title" content="Career Guidance | CSDE" />
+	<meta property="og:site_name" content="Career Guidance | CSDE"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:locale" content="en_gb"/>
-	<meta property="og:url" content="https://diksha.gov.in/Sunbird/" />
-	<meta property="og:image" content="https://diksha.gov.in/Sunbird/images/preview.png" />
-	<meta property="og:description" content="Teaching is better with a friend! Teach with Sunbird, the official MAA app for Sunbird’s school teachers." />
+	<!-- <meta property="og:url" content="https://diksha.gov.in/Sunbird/" />
+	<meta property="og:image" content="https://diksha.gov.in/Sunbird/images/preview.png" /> -->
+	<meta property="og:description" content="Teaching is better with a friend! Teach with CSDE, the official MAA app for CSDE school teachers." />
 	
 	<!--Twitter Cards-->
-	<meta name="twitter:card" content="summary_large_image">
+	<!-- <meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:url" content="https://diksha.gov.in/Sunbird/">
 	<meta name="twitter:title" content="Sunbird">
 	<meta name="twitter:description" content="Teaching is better with a friend! Teach with Sunbird, the official MAA app for Sunbird’s school teachers.">
 	<meta name="twitter:site" content="@Sunbird">
-	<meta name="twitter:creator" content="@Sunbird">
+	<meta name="twitter:creator" content="@Sunbird"> -->
     <base href="/nudge/" >
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap.min.css" rel="stylesheet">
@@ -139,12 +139,16 @@
 					<address><span>Contact: <a href="mailto:product.pilot@thenudge.org" class="text-white" target="_top" title="Contact Us">product.pilot@thenudge.org</a></span></address>
 				</div>
 				<div class="col-xs-5 col-xxs-12 text-right padding10">
-					<span>&copy; 2019, CSDE</span>
+					<span>&copy; <span id="currentyear"> </span>, CSDE</span>
 				</div>
 			</div>
 		</div>
 	</footer>
-    <!-- /Footer -->
+	<!-- /Footer -->
+	
+	<script>
+		document.getElementById("currentyear").innerHTML = new Date().getFullYear();
+	</script>
     
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="vendor/jquery.min.js"></script>
