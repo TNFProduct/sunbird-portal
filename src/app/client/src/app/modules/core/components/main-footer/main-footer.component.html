@@ -35,27 +35,27 @@
             </a>
           </li>
         </ul> -->
+        <label class="d-block mb-10">
+            {{resourceService.frmelmnts?.lnk?.footerContact}} 
+            <a href="mailto:product.pilot@thenudge.org">
+              product.pilot@thenudge.org
+            </a> 
+          </label>
       </div>
      <!--  <div class="four wide column center aligned playStore">
           <label class="d-block mb-10">{{resourceService.frmelmnts?.lnk?.footerDIKSHAForMobile}}</label>
           <a class="d-block" href="https://play.google.com/store/apps/details?id=in.gov.diksha.app">
             <img class="playStore-img" src="/assets/images/google_playstore.png" alt="{{resourceService.frmelmnts?.lnk?.footerDIKSHAForMobile}}">
           </a> 
-  
-        
         </div>-->
       <div class="four wide column contantDetails">
-        <label class="d-block mb-10">
-          {{resourceService.frmelmnts?.lnk?.footerContact}} 
-        </label>
-        <a class="d-block mb-30" href="mailto:product.pilot@thenudge.org">
-          product.pilot@thenudge.org
-        </a>
         <label class="d-block">
-          <a href="/term-of-use.html">
+          <!-- <a href="/term-of-use.html">
             {{resourceService.frmelmnts?.lnk?.footerTnC}}
-          </a>
-          <span>| &copy; {{date | date:'yyyy'}}, CSDE</span>
+          </a> -->
+          <!-- <span>|  -->
+          &copy; {{date | date:'yyyy'}}, CSDE
+          <!-- </span> -->
         </label>
       </div>
     </div>
